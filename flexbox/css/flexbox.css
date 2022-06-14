@@ -1,7 +1,5 @@
-.cabecalhoPrincipal {
-    display: inline-block;
-}
-
-.cabecalhoPrincipal-nav {
-    display: inline-block;
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
