@@ -15,23 +15,38 @@
 
 /*CSS do footer*/
 
+    /*CSS do Mapa de Cursos*/    
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column; /*Transforma o padrão de linhas"roms" para coluna*/
+    flex-wrap: wrap; /*Cria a quebra de linha das colunas*/
+    /*flex-flow: column wrap;  "Subistitui as funções flex-direction e flex-wrap, juntando em apenas uma" */
+    height: 255px; /*Altura de cada coluna, para a proxima quebra de coluna*/
+}
+
 .rodapePrincipal-patrocinadores .container {
     display: flex;
     justify-content: space-between;
 }
+
+/*CSS dos patrocinadores*/
 
 .rodapePrincipal-patrocinadores-list {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 70%;
-    margin-right: 5%;
-}
+    margin-right: 5%;}
+
+/*CSS do form*/
 
 .rodapePrincipal-contatoForm {
     width: 25%;
 }
 
 .rodapePrincipal-contatoForm-fieldset {
-    display: flex;
+    display: flex;    
 }
+
+
