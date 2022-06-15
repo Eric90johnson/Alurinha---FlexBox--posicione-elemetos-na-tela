@@ -12,6 +12,25 @@
 
 /*CSS do main*/
 
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin: 1%;     
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) { /*Serve para retirar o bug  do grid do flex*/
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) { /*Serve para retirar o bug  do grid do flex*/
+    margin-left: 0;
+}
+
 
 /*CSS do footer*/
 
@@ -25,12 +44,12 @@
     height: 255px; /*Altura de cada coluna, para a proxima quebra de coluna*/
 }
 
+/*CSS dos patrocinadores*/
+
 .rodapePrincipal-patrocinadores .container {
     display: flex;
     justify-content: space-between;
 }
-
-/*CSS dos patrocinadores*/
 
 .rodapePrincipal-patrocinadores-list {
     display: flex;
